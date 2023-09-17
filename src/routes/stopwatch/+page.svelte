@@ -76,7 +76,7 @@
 			text="Reset"
 			color="text-red-400"
 			hoverBackgroundColor="hover:bg-red-400"
-			isDisabled={false}
+			isDisabled={timer === 0}
 			onClick={reset}
 		/>
 	</div>
